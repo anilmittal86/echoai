@@ -19,10 +19,22 @@ export const Hero: React.FC = () => {
           in the AI world.
         </h1>
 
-        <p className="text-xl text-slate-400 mb-10 max-w-2xl mx-auto leading-relaxed">
-          LLMs are the new gatekeepers. EchoAI helps you measure, trace, and optimize 
+        <p className="text-xl text-slate-400 mb-6 max-w-2xl mx-auto leading-relaxed">
+          LLMs are the new gatekeepers. EchoAI helps you measure, trace, and optimize
           how your brand is represented across ChatGPT, Gemini, and Claude.
         </p>
+
+        {/* Answer Capsule - "What is EchoAI?" */}
+        <div className="max-w-3xl mx-auto mb-10 p-6 rounded-2xl bg-gradient-to-r from-blue-900/30 to-purple-900/30 border border-blue-500/20 backdrop-blur-sm">
+          <p className="text-sm font-semibold text-blue-400 mb-2 uppercase tracking-wide">What is EchoAI?</p>
+          <p className="text-base text-slate-200 leading-relaxed">
+            EchoAI is an AI visibility intelligence platform that measures how brands
+            appear in AI assistant recommendations across ChatGPT, Gemini, and Claude.
+            Unlike monitoring-only tools, EchoAI provides actionable recommendations
+            with predicted ROI—telling you exactly which actions will improve your
+            EchoScore and by how much.
+          </p>
+        </div>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <button className="w-full sm:w-auto px-8 py-4 bg-blue-600 hover:bg-blue-500 text-white rounded-lg font-semibold transition-all flex items-center justify-center gap-2 group">
