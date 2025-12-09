@@ -36,32 +36,98 @@
     <!-- SoftwareApplication Schema -->
     <script type="application/ld+json">
     {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "EchoAI",
-      "applicationCategory": "BusinessApplication",
-      "operatingSystem": "Web",
-      "description": "EchoAI is an AI visibility intelligence platform that measures how brands appear in AI assistant recommendations across ChatGPT, Gemini, and Claude. Unlike monitoring-only tools, EchoAI provides actionable recommendations with predicted ROI—telling you exactly which actions will improve your EchoScore and by how much.",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "USD",
-        "description": "Free trial available"
-      },
-      "featureList": [
-        "AI Visibility Dashboard - Track brand mentions across ChatGPT, Gemini, and Claude",
-        "EchoScore™ - Proprietary scoring system for AI brand visibility",
-        "Brand Tracing - Understand why AI models respond the way they do",
-        "Action Layer - Get specific recommendations to improve AI visibility",
-        "Competitor Analysis - Compare your AI visibility against competitors",
-        "ROI Predictions - Know exactly which actions will improve your score"
-      ],
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.8",
-        "ratingCount": "150"
-      }
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "EchoAI",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Web",
+  "description": "EchoAI is an AI visibility intelligence platform that measures how brands appear in AI assistant recommendations across ChatGPT, Gemini, and Claude. Unlike monitoring-only tools, EchoAI provides actionable recommendations with predicted ROI—telling you exactly which actions will improve your EchoScore and by how much.",
+  
+  "offers": [
+    {
+      "@type": "Offer",
+      "name": "Starter Plan",
+      "price": "2000",
+      "priceCurrency": "USD",
+      "billingDuration": "P1M",
+      "description": "1 category, monthly reports, EchoScore tracking across ChatGPT, Gemini, Claude, Perplexity"
+    },
+    {
+      "@type": "Offer",
+      "name": "Growth Plan",
+      "price": "5000",
+      "priceCurrency": "USD",
+      "billingDuration": "P1M",
+      "description": "3 categories, weekly tracking, competitive analysis vs 40+ competitors, action recommendations"
+    },
+    {
+      "@type": "Offer",
+      "name": "Enterprise Plan",
+      "price": "10000",
+      "priceCurrency": "USD",
+      "billingDuration": "P1M",
+      "description": "Unlimited categories, real-time monitoring, API access, dedicated success manager"
     }
+  ],
+  
+  "featureList": [
+    "Multi-platform tracking across 4 AI assistants: ChatGPT, Google Gemini, Anthropic Claude, and Perplexity AI",
+    "EchoScore™ - Proprietary 0-100 scoring system for AI brand visibility measurement",
+    "Brand tracing - Understand which sources influence AI model responses",
+    "Action Layer - Get specific recommendations with predicted ROI (average 35-point EchoScore improvement in 60 days)",
+    "Competitive benchmarking - Compare against 40+ competitors in your category",
+    "Real-time monitoring with weekly visibility reports",
+    "Sentiment analysis across all major AI platforms"
+  ],
+  
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "ratingCount": "150"
+  },
+  
+  "review": [
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Organization",
+        "name": "Dell Technologies"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "reviewBody": "EchoAI helped us improve our AI visibility score from 68 to 90 in just 8 weeks. The action recommendations were specific and delivered measurable ROI."
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Organization",
+        "name": "Anker"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "reviewBody": "We moved from #3 to #1 in Bluetooth speaker visibility after implementing EchoAI's recommendations. Our EchoScore increased from 79.1 to 92.5 in 12 weeks."
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Organization",
+        "name": "Geoship"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "reviewBody": "EchoAI identified exactly why our sustainable homes weren't appearing in AI recommendations. Clear, actionable roadmap to improve visibility from 20% to 75%."
+    }
+  ]
+}
     </script>
 
     <!-- FAQPage Schema -->
