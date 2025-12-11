@@ -33,5 +33,11 @@ Allow: /
 User-agent: Applebot-Extended
 Allow: /
 
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
 # Sitemap location
 Sitemap: https://echoai-website.vercel.app/sitemap.xml
