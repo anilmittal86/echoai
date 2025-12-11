@@ -1,0 +1,50 @@
+# EchoAI - AI Brand Visibility Intelligence Platform
+
+> EchoAI measures and improves how brands appear in AI assistant recommendations across ChatGPT, Claude, Gemini, and Perplexity.
+
+## What is EchoAI?
+
+EchoAI is an AI visibility intelligence platform that helps brands understand, measure, and optimize how they are represented in AI-powered search and assistant responses. Unlike traditional SEO tools, EchoAI focuses specifically on how Large Language Models (LLMs) perceive and recommend brands.
+
+## Core Features
+
+### EchoScore
+A 0-100 score measuring your brand's visibility across AI platforms. Higher scores mean AI assistants mention and recommend your brand more frequently.
+
+### Multi-Platform Tracking
+- ChatGPT and GPT-4
+- Google Gemini
+- Anthropic Claude
+- Perplexity AI
+- Microsoft Copilot
+
+### Competitive Analysis
+See how your brand ranks against competitors in AI recommendations. Understand why competitors appear more frequently and what actions to take.
+
+### Action Layer (Unique Differentiator)
+Unlike monitoring-only tools, EchoAI provides:
+- Prioritized recommendations to improve visibility
+- Predicted ROI for each action
+- Before/after tracking to prove what works
+
+## Who Uses EchoAI?
+
+- CMOs and Marketing Leaders - Track brand perception in AI channels
+- Brand Managers - Monitor competitive positioning
+- SEO/Content Teams - Optimize content for AI discovery
+- Agencies - Provide AI visibility services to clients
+
+## Pricing
+
+- Starter: $2,000/month
+- Growth: $5,000/month
+- Enterprise: $10,000/month
+
+## Contact
+
+- Website: https://echoai-website.vercel.app
+- Schedule Demo: https://calendly.com/anilmittal
+
+## Keywords
+
+AI visibility, AI brand monitoring, LLM optimization, ChatGPT visibility, AI search optimization, brand visibility AI, EchoScore, AI marketing, generative AI optimization, answer engine optimization, AEO
