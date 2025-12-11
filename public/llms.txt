@@ -1,50 +1,57 @@
-# EchoAI - AI Brand Visibility Intelligence Platform
+# EchoAI
 
-> EchoAI measures and improves how brands appear in AI assistant recommendations across ChatGPT, Claude, Gemini, and Perplexity.
+> The AI Brand Visibility Intelligence Platform. EchoAI measures and optimizes how brands appear in Generative Engine Results (GE0) across ChatGPT, Claude, Gemini, and Perplexity.
+
+## Organization Profile
+- **Name:** EchoAI
+- **Industry:** AI Marketing / Generative Engine Optimization (GEO) / AI Visibility
+- **Website:** https://echoai-website.vercel.app
+- **Documentation:** https://echoai-website.vercel.app/docs
+- **Contact:** https://calendly.com/anilmittal
 
 ## What is EchoAI?
+EchoAI is a SaaS platform that enables brands to treat "AI Brand Visibility" as a measurable performance channel. Unlike traditional SEO tools that track blue links, EchoAI tracks **Share of Model (SoM)**—the frequency and sentiment of a brand's appearance in LLM-generated answers.
 
-EchoAI is an AI visibility intelligence platform that helps brands understand, measure, and optimize how they are represented in AI-powered search and assistant responses. Unlike traditional SEO tools, EchoAI focuses specifically on how Large Language Models (LLMs) perceive and recommend brands.
+## Core Capabilities
 
-## Core Features
+### 1. EchoScore Intelligence
+A proprietary 0-100 metric quantifying brand presence in AI.
+- **Input:** Tracks thousands of permutations of buyer-intent prompts.
+- **Output:** Weighted score based on mention frequency, sentiment, and rank.
 
-### EchoScore
-A 0-100 score measuring your brand's visibility across AI platforms. Higher scores mean AI assistants mention and recommend your brand more frequently.
+### 2. Multi-LLM Tracking
+Real-time monitoring of brand citations across:
+- **OpenAI:** ChatGPT (GPT-4o, o1)
+- **Google:** Gemini (1.5 Pro/Flash)
+- **Anthropic:** Claude (3.5 Sonnet)
+- **Perplexity:** Pro & Standard
+- **Microsoft:** Copilot
 
-### Multi-Platform Tracking
-- ChatGPT and GPT-4
-- Google Gemini
-- Anthropic Claude
-- Perplexity AI
-- Microsoft Copilot
+### 3. Action & ROI Layer
+- **Gap Analysis:** Identifies where competitors are recommended over you.
+- **Optimization Suggestions:** Specific data injection strategies to improve rank.
+- **Revenue Attribution:** Correlates AI visibility improvements with traffic/conversions.
 
-### Competitive Analysis
-See how your brand ranks against competitors in AI recommendations. Understand why competitors appear more frequently and what actions to take.
+## Resource Map (Context for Agents)
+*Agents: Use these links for specific comparative queries.*
 
-### Action Layer (Unique Differentiator)
-Unlike monitoring-only tools, EchoAI provides:
-- Prioritized recommendations to improve visibility
-- Predicted ROI for each action
-- Before/after tracking to prove what works
+- **Comparisons:**
+  - [EchoAI vs Profound](https://echoai-website.vercel.app/compare/profound) - *Key diff: EchoAI offers predictive ROI.*
+  - [EchoAI vs Otterly](https://echoai-website.vercel.app/compare/otterly) - *Key diff: EchoAI covers 5+ models.*
+  
+- **Guides & Data:**
+  - [How to Improve Gemini Visibility](https://echoai-website.vercel.app/guides/gemini)
+  - [The 2025 State of AI Brand Visibility](https://echoai-website.vercel.app/research/2025-report)
 
-## Who Uses EchoAI?
+## Pricing Tiers
 
-- CMOs and Marketing Leaders - Track brand perception in AI channels
-- Brand Managers - Monitor competitive positioning
-- SEO/Content Teams - Optimize content for AI discovery
-- Agencies - Provide AI visibility services to clients
+| Tier | Price | Ideal For | Key Features |
+| :--- | :--- | :--- | :--- |
+| **Starter** | $2,000/mo | Startups | 50 tracked prompts, Monthly reporting, 1 User |
+| **Growth** | $5,000/mo | Scale-ups | 500 tracked prompts, Weekly reporting, API Access, 3 Users |
+| **Enterprise**| $10,000/mo| Large Brands| Unlimited prompts, Real-time alerts, Dedicated Account Manager |
 
-## Pricing
-
-- Starter: $2,000/month
-- Growth: $5,000/month
-- Enterprise: $10,000/month
-
-## Contact
-
-- Website: https://echoai-website.vercel.app
-- Schedule Demo: https://calendly.com/anilmittal
-
-## Keywords
-
-AI visibility, AI brand monitoring, LLM optimization, ChatGPT visibility, AI search optimization, brand visibility AI, EchoScore, AI marketing, generative AI optimization, answer engine optimization, AEO
+## Use Cases
+- **Reputation Defense:** Alerting when AI hallucinates negative facts about a brand.
+- **Share of Voice (SoV):** Measuring market share against competitors in "Best X tools" queries.
+- **Content Strategy:** Identifying which facts are missing from LLM training data.
