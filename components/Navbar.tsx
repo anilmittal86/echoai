@@ -15,34 +15,39 @@ export const Navbar: React.FC = () => {
   }, []);
 
   const navLinks = [
-    { label: 'Mission', href: '#mission' },
+    { label: 'Problem', href: '#problem' },
     { label: 'Solution', href: '#solution' },
-    { label: 'How It Works', href: '#how-it-works' },
+    { label: 'Features', href: '#features' },
     { label: 'Product', href: '#product' },
   ];
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-brand-dark/90 backdrop-blur-md border-b border-white/5 py-4' : 'bg-transparent py-6'}`}>
+    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-brand-dark/90 backdrop-blur-md border-b border-cyan-500/10 py-4' : 'bg-transparent py-6'}`}>
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         <div className="flex items-center gap-3">
           <Logo className="h-8 w-8 md:h-10 md:w-10" />
-          <span className="text-xl md:text-2xl font-bold tracking-tight text-white">EchoAI</span>
+          <span className="text-xl md:text-2xl font-bold tracking-tight text-white">SignalAI</span>
         </div>
 
         {/* Desktop Nav */}
         <div className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
-            <a 
-              key={link.label} 
+            <a
+              key={link.label}
               href={link.href}
-              className="text-slate-300 hover:text-white transition-colors text-sm font-medium"
+              className="text-slate-300 hover:text-cyan-400 transition-colors text-sm font-medium"
             >
               {link.label}
             </a>
           ))}
-          <button className="bg-white text-brand-dark px-5 py-2 rounded-full font-semibold text-sm hover:bg-blue-50 transition-colors">
+          <a
+            href="https://calendly.com/anilmittal"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-5 py-2 rounded-full font-semibold text-sm hover:from-cyan-400 hover:to-blue-500 transition-all shadow-lg shadow-cyan-500/25"
+          >
             Book Demo
-          </button>
+          </a>
         </div>
 
         {/* Mobile Toggle */}
@@ -55,20 +60,25 @@ export const Navbar: React.FC = () => {
 
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
-        <div className="md:hidden absolute top-full left-0 right-0 bg-brand-dark border-b border-white/10 p-6 flex flex-col gap-4">
+        <div className="md:hidden absolute top-full left-0 right-0 bg-brand-dark border-b border-cyan-500/10 p-6 flex flex-col gap-4">
            {navLinks.map((link) => (
-            <a 
-              key={link.label} 
+            <a
+              key={link.label}
               href={link.href}
               onClick={() => setIsMobileMenuOpen(false)}
-              className="text-slate-300 hover:text-white transition-colors text-lg font-medium"
+              className="text-slate-300 hover:text-cyan-400 transition-colors text-lg font-medium"
             >
               {link.label}
             </a>
           ))}
-          <button className="bg-blue-600 text-white w-full py-3 rounded-lg font-semibold mt-4">
+          <a
+            href="https://calendly.com/anilmittal"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-gradient-to-r from-cyan-500 to-blue-600 text-white w-full py-3 rounded-lg font-semibold mt-4 text-center"
+          >
             Book Demo
-          </button>
+          </a>
         </div>
       )}
     </nav>
